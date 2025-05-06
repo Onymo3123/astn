@@ -20,7 +20,7 @@ public class task1 {
             String valueA = bufferedReader.readLine(); //читаем значение с клавиатуры
             a = Integer.parseInt(valueA); // пробуем его парсить в число
         } catch (IOException e) {
-            System.err.println("Некорректный ввод");
+            System.err.println("Ошибка ввода");
             return;
         } catch (NumberFormatException e){
             System.err.println("Требуется ввести число"); // в случае ошибки выводим сообщение
